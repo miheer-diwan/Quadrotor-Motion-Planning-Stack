@@ -8,13 +8,13 @@ Please refer to the [Report](Report.pdf) for more detailed information.
 ## Environment Setup
 The simulation environment is based on Blender. The map and the start and goal positions are loaded dynamically as described in a text file. An example environment file format is given below:
 
-
+```
 boundary xmin ymin zmin xmax ymax zmax
 block xmin ymin zmin xmax ymax zmax r g b
 boundary 0 0 0 45 35 6
 block 1.0 1.0 1.0 3.0 3.0 3.0 0 255 0
 block 20.0 10.0 0.0 21.0 20.0 6.0 0 0 255
-
+```
 I wrote a function to read and display this map in Blender. The start and goal positions are shown as unit red and green spheres respectively. Obstacles are bloated to account for the quadrotor size.
 
 ## Path Planner
