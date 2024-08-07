@@ -1,9 +1,9 @@
-# Quadrotor Path and Trajectory Planning Project
+# Quadrotor Path Planning
 
 ## Project Overview
 In this project, I implemented path and trajectory planning (motion planning) and tuned a control stack for a quadrotor to navigate from a start position to a goal position through a pre-mapped or known 3D environment. This project is divided into multiple parts, including environment setup, path planning, trajectory generation, and controller tuning. The initial implementation will be done in simulation using Blender. 
 
-Please check the [Report](Report.pdf) for more detailed information.
+Please refer to the [Report](Report.pdf) for more detailed information.
 
 ## Environment Setup
 The simulation environment is based on Blender. The map and the start and goal positions are loaded dynamically as described in a text file. An example environment file format is given below:
