@@ -28,7 +28,7 @@ I tuned a cascaded PID controller to follow the desired trajectory. The controll
 
 ## Key Components
 1. **Map Reader and Display**: Function to read and display the environment map in Blender.
-2. **RRT* Path Planner**: Implemented to generate a path from the start to the goal position.
+2. **RRT\* Path Planner**: Implemented to generate a path from the start to the goal position.
 3. **Trajectory Planner**: Converts the path into a smooth and feasible trajectory.
 4. **PID Controller**: Tuned to follow the generated trajectory, ensuring minimal overshoot and collision avoidance.
 
